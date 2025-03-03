@@ -2,7 +2,7 @@
 $charMax = 1000;
 ?>
 
-<form style="margin-top: 1.5rem" action="gyakorlas2.php" method="get">
+<form style="margin-top: 1.5rem" action="CalcAndRandomNum.php" method="get">
     <label for="inputNumber">Adjon meg egy számot! (Max <?= $charMax ?>)</label>
     <br>
     <input
@@ -164,7 +164,7 @@ foreach ($calcNumbers as $value){
 }
 
 ?>
-<form style="margin-top: 5rem" action="gyakorlas2.php" method="get">
+<form style="margin-top: 5rem" action="CalcAndRandomNum.php" method="get">
     <label for="calc">Számológép</label>
     <br>
     <input
@@ -182,7 +182,7 @@ foreach ($calcNumbers as $value){
     >
     <button type="submit" name="deleteOne" value="delete">Egy törlése</button>
 </form>
-<form action="gyakorlas2.php" method="get">
+<form action="CalcAndRandomNum.php" method="get">
     <button type="submit" name="resetButton" value="reset">Nullázó</button>
 </form>
 <?php
